@@ -1,0 +1,83 @@
+.star {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    margin: 2px;
+    float: left;
+    background-color: grey;
+    clip-path: polygon(
+    50% 0%,
+    63% 38%,
+    100% 38%,
+    69% 59%,
+    82% 100%,
+    50% 75%,
+    18% 100%,
+    31% 59%,
+    0% 38%,
+    37% 38%
+    );
+    }
+.star.selected {
+    background-color: skyblue;
+}
+
+.rating{
+    display: flex;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    width: 310px;
+    height: 50px;
+    justify-content: space-between;
+    padding-right: 20px;
+    
+}
+
+.ratingstars{
+    margin: auto;
+        
+}
+.ratingtext{
+    display: flex;
+    margin: auto;
+    width: 30px;
+    height: 50px;
+    justify-content: space-around;
+    
+}
+.full{
+    flex-direction: column;
+}
+.ratingof{
+    height: 50%;
+    margin: auto;
+    padding-top:5px;
+}
+.ratingtitle{
+   
+    margin: auto;
+    height: 50%;
+}
+
+.comment{
+    background-color :#E0FEFD;
+    width: 315px;
+    height: 50px;
+    padding: 10px;
+}
+
+.addcomment{
+    display: flex;
+    width: 330px;
+    height: 50px;
+}
+
+.commentinput{
+    width: 330px;
+}
+
+.comments{
+    height: 100px;
+    overflow: auto;
+}

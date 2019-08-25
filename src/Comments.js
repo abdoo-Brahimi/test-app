@@ -3,10 +3,13 @@ import Comment from './Comment'
 
 const Comments = ({comments=[]}) => (
     <section className="comments">
-        {
-            [...comments].map((value, id)=>(
-                <Comment text={value} key={id}/>
-            ))
+        {   
+            [...comments].map((value, id)=>{
+                return <Comment text={value} key={id}/>
+                
+            }
+
+            )
         }
     </section>
 )

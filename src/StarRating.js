@@ -1,6 +1,6 @@
 import Star from './Star'
 import React from 'react'
-import { statement } from '@babel/template';
+
 
 
 const StarRating = ({starsSelected=0, totalStars=6, onRate=f=>f}) => (
